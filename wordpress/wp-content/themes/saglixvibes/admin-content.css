@@ -1,0 +1,74 @@
+.site-admin-fields label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.site-admin-fields input[type="text"],
+.site-admin-fields input[type="url"],
+.site-admin-fields input[type="number"],
+.site-admin-fields input[type="time"],
+.site-admin-fields textarea {
+  width: 100%;
+  max-width: 520px;
+}
+
+.site-admin-fields .ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+.site-schedule-fields {
+  display: grid;
+  gap: 10px;
+}
+
+.site-schedule-row {
+  display: grid;
+  grid-template-columns: minmax(90px, 130px) 120px 18px 120px;
+  gap: 8px;
+  align-items: center;
+  max-width: 460px;
+}
+
+.site-schedule-row label {
+  margin: 0;
+}
+
+.site-banner-backgrounds {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  max-width: 980px;
+  margin: 16px 0;
+  padding: 0;
+  border: 0;
+}
+
+.site-banner-backgrounds legend {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.site-banner-background {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid #c3c4c7;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.site-banner-background img {
+  width: 100%;
+  aspect-ratio: 16 / 5;
+  object-fit: cover;
+  border: 1px solid #dcdcde;
+}
+
+@media (max-width: 782px) {
+  .site-schedule-row {
+    grid-template-columns: 1fr;
+  }
+}

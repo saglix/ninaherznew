@@ -1,0 +1,70 @@
+.site-settings-page {
+  max-width: 780px;
+}
+
+.site-settings-card {
+  margin-block: 16px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #c3c4c7;
+  border-radius: 8px;
+}
+
+.site-settings-card h2 {
+  margin-top: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dcdcde;
+}
+
+.site-settings-card .form-table th {
+  width: 180px;
+}
+
+.site-settings-card .regular-text {
+  max-width: 100%;
+}
+
+.site-settings-card .ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+.site-settings-card fieldset label {
+  margin-inline-end: 18px;
+}
+
+.site-inline-control {
+  display: inline-block;
+  margin-inline-start: 12px;
+}
+
+.site-logo-setting__preview {
+  min-height: 48px;
+  margin-bottom: 8px;
+}
+
+.site-logo-setting__preview img {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #c3c4c7;
+  border-radius: 8px;
+}
+
+.site-logo-width-setting {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+}
+
+.site-logo-width-setting input[type="range"] {
+  width: min(360px, 100%);
+}
+
+.site-color-text {
+  width: 90px;
+  margin-inline-start: 8px;
+}

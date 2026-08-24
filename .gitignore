@@ -1,0 +1,34 @@
+# Local runtime and generated packages
+runtime/
+tools/
+hostinger-upload/
+wordpress-files.zip
+wp-cli.phar
+
+# WordPress core and third-party runtime files
+wordpress/*
+!wordpress/wp-content/
+wordpress/wp-content/*
+!wordpress/wp-content/themes/
+wordpress/wp-content/themes/*
+!wordpress/wp-content/themes/saglixvibes/
+!wordpress/wp-content/themes/saglixvibes/**
+
+# Local WordPress database and exports
+wordpress/wp-content/database/
+wordpress-database.sql
+*.sqlite
+*.sqlite-*
+
+# Environment-specific WordPress config
+wordpress/wp-config.php
+
+# Generated QA screenshots and scraped source pages
+*.png
+*.html
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
