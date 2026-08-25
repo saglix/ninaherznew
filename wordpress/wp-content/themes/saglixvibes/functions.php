@@ -15,6 +15,7 @@ require_once get_template_directory() . '/inc/upload-types.php';
 require_once get_template_directory() . '/inc/content-structure.php';
 require_once get_template_directory() . '/inc/home-banners.php';
 require_once get_template_directory() . '/inc/home-events.php';
+require_once get_template_directory() . '/inc/home-about.php';
 
 function site_theme_setup() {
 	load_theme_textdomain( 'site-theme', get_template_directory() . '/languages' );
